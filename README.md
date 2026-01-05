@@ -44,4 +44,3 @@ By expressing downtime in monetary terms, it helps founders, managers, and opera
 ## Author
 Akshitha Kolli
 
-## Project Structure
