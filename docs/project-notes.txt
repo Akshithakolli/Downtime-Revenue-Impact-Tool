@@ -1,0 +1,16 @@
+Project Notes
+What is this project?
+
+The Downtime to Revenue Impact Tool is a web-based decision-support application that helps businesses understand the financial impact of system downtime. It converts technical downtime into clear revenue loss and business impact insights to support better operational decisions.
+
+Problem Statement 
+
+Many organizations view system downtime only as a technical issue and fail to quantify its business impact. This leads to underestimated revenue loss and delayed investments in reliability and monitoring. There is a clear gap between technical outages and business decision-making.
+
+Solution Approach 
+
+The tool allows users to enter basic system and business inputs such as customers per hour, average order value, downtime duration, and failure type. It calculates the revenue loss, categorizes the impact as Low, Medium, or High, and displays actionable insights to guide decisions.
+
+Why this project is important
+
+This project bridges the gap between technology and business by translating downtime into financial impact. It helps founders, managers, and operations teams make informed decisions about reliability, DevOps investments, and risk mitigation. The project highlights how technical data can drive meaningful business outcomes.

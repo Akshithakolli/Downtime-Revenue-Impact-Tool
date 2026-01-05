@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Input Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h1>Downtime Impact Tool</h1>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="input.html">Input</a>
+        <a href="result.html">Results</a>
+    </div>
+</div>
+
+<div class="container">
+    <h1 class="main-title">Enter System Downtime Details</h1>
+    <p class="subtitle">Provide system and business inputs below.</p>
+
+    <div class="card">
+        <label>Number of Customers per Hour</label>
+        <input type="number" id="customers" placeholder="e.g. 200">
+
+        <label>Average Order Value (₹)</label>
+        <input type="number" id="orderValue" placeholder="e.g. 500">
+
+        <label>Downtime Duration (minutes)</label>
+        <input type="number" id="downtime" placeholder="e.g. 30">
+
+        <label>Type of Failure</label>
+        <select id="failureType">
+            <option>Partial Outage</option>
+            <option>Payment Failure</option>
+            <option>Complete Outage</option>
+        </select>
+
+        <a class="primary-btn" onclick="calculateImpact()">Calculate Revenue Loss</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

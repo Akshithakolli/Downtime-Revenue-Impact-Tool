@@ -1,0 +1,65 @@
+Website Logic
+
+When a user opens the website, they are first shown the Home page, which explains the purpose of the tool and identifies who it is useful for, such as founders, managers, and operations teams.
+
+The Home page also includes a Frequently Asked Questions (FAQ) section to address common doubts and a call-to-action button that directs the user to the Input page.
+
+On the Input page, the user enters:
+
+Number of customers per hour
+
+Average order value
+
+Downtime duration (in minutes)
+
+Type of failure (for example, payment failure or checkout failure)
+
+The system then converts the downtime from minutes to hours, calculates the revenue per hour, and computes the total revenue lost during the downtime period.
+
+Finally, the user is redirected to the Result page, which displays the estimated revenue loss and classifies the business impact as Low, Medium, or High to support better operational and business decision-making.
+
+Impact Level Classification
+
+After calculating the revenue loss, the system compares the value against predefined thresholds to determine the severity of the impact:
+
+Low Impact: Revenue loss less than ₹1,00,000
+
+Medium Impact: Revenue loss between ₹1,00,000 and ₹5,00,000
+
+High Impact: Revenue loss greater than ₹5,00,000
+
+This categorization helps users quickly understand how serious the downtime was from a business perspective.
+
+Suggested Actions Based on Impact Level
+
+To make the experience more engaging and practical, the tool displays light-hearted but helpful recommendations based on the impact level.
+
+If the Impact is Low
+
+The system suggests:
+
+Monitor the system regularly
+
+Review logs and incident frequency
+
+No immediate major investment is required
+
+If the Impact is Medium
+
+The system suggests:
+
+Improve monitoring and alerting mechanisms
+
+Automate deployments and rollbacks
+
+Review checkout and payment reliability
+
+If the Impact is High
+
+The system suggests:
+
+Invest in stronger DevOps automation
+
+Add redundancy for critical systems such as payments
+
+Prioritize reducing downtime during peak business hours
